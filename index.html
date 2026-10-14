@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Khu vực cửa hàng · SmartShelf Nhân viên</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <!-- Sidebar -->
+  <div id="sidebar-slot"></div>
+
+  <div class="ss-app-container">
+    <!-- Header -->
+    <div id="header-slot"></div>
+
+    <main class="ss-main-workspace">
+      <!-- Page Header -->
+      <div class="ss-page-head">
+        <div class="ss-page-title-box">
+          <h1>Nhân viên cửa hàng · Giám sát khu vực (Zone View)</h1>
+          <p class="ss-page-subtitle">Theo dõi tình trạng lấp đầy kệ hàng, số kệ trống, các mặt hàng thiếu hụt và tiến độ bổ sung hàng trên 5 khu vực siêu thị.</p>
+        </div>
+        <div class="ss-page-actions">
+          <button class="btn btn-secondary" onclick="openQuickRestockModal()">
+            <span>⚡</span>
+            <span>Tạo việc bổ sung nhanh</span>
+          </button>
+          <a href="associate-shelf-check.html" class="btn btn-primary">
+            <span>📋</span>
+            <span>Bắt đầu kiểm kê kệ</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Quick Metrics -->
+      <div class="kpi-grid">
+        <div class="kpi-card">
+          <div class="kpi-card-top">
+            <span class="kpi-label">Tổng khu vực phụ trách</span>
+            <div class="kpi-icon-box" style="background-color: var(--primary-light); color: var(--primary);">🏬</div>
+          </div>
+          <div class="kpi-value" id="stat-zone-count">5 Khu</div>
+          <div class="kpi-card-bottom">
+            <span id="stat-shelf-count">26 Kệ hàng đang giám sát</span>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-card-top">
+            <span class="kpi-label">Kệ trống cần bổ sung gấp</span>
+            <div class="kpi-icon-box" style="background-color: var(--danger-bg); color: var(--danger);">🚨</div>
+          </div>
+          <div class="kpi-value" style="color: var(--danger)" id="stat-empty-shelves">2 Kệ</div>
+          <div class="kpi-card-bottom">
+            <span class="kpi-trend negative">Kệ A-03 &amp; D-01</span>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-card-top">
+            <span class="kpi-label">Kệ sắp hết hàng</span>
+            <div class="kpi-icon-box" style="background-color: var(--warning-bg); color: var(--warning);">⚠️</div>
+          </div>
+          <div class="kpi-value" style="color: var(--warning)" id="stat-low-shelves">4 Kệ</div>
+          <div class="kpi-card-bottom">
+            <span>Dưới 25% định mức</span>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-card-top">
+            <span class="kpi-label">Nhiệm vụ đang chờ nhân viên</span>
+            <div class="kpi-icon-box" style="background-color: #f0f9ff; color: #0284c7;">📌</div>
+          </div>
+          <div class="kpi-value" style="color: #0284c7" id="stat-pending-tasks">5 Việc</div>
+          <div class="kpi-card-bottom">
+            <a href="associate-restock-task.html" style="font-weight:700">Xử lý ngay →</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Zone Cards Grid -->
+      <div class="zone-cards-grid" id="zone-cards-grid">
+        <!-- Rendered by JS -->
+      </div>
+    </main>
+  </div>
+
+  <!-- Scripts -->
+  <script src="js/data.js"></script>
+  <script src="js/store.js"></script>
+  <script src="js/ai.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
+

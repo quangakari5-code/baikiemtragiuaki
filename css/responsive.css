@@ -1,0 +1,48 @@
+@media (max-width: 1120px) {
+  .ss-sidebar { width: 220px; }
+  .ss-app-container { margin-left: 220px; }
+  .ss-header { padding: 0 21px; }
+  .ss-main-workspace { padding-right: 21px; padding-left: 21px; }
+  .kpi-grid { grid-template-columns: repeat(2, minmax(0,1fr)); }
+}
+
+@media (max-width: 760px) {
+  .ss-sidebar { width: min(280px, 84vw); transform: translateX(-105%); box-shadow: 14px 0 35px rgba(20,35,50,.16); }
+  .ss-sidebar.is-open { transform: translateX(0); }
+  .ss-sidebar-scrim.is-open { position: fixed; z-index: 25; inset: 0; display: block; background: rgba(25,39,54,.35); }
+  .ss-app-container { margin-left: 0; }
+  .ss-header { height: 56px; padding: 0 13px; }
+  .ss-header-left, .ss-header-right { gap: 8px; }
+  .ss-mobile-toggle { display: grid; flex: 0 0 auto; }
+  .ss-breadcrumb { gap: 6px; font-size: 9px; }
+  .ss-breadcrumb > span:first-child { display: none; }
+  .ss-header-search { width: 34px; height: 32px; justify-content: center; padding: 0; background: #fff; }
+  .ss-header-search input, .ss-header-search kbd { display: none; }
+  .ss-header-search span { font-size: 17px; }
+  .ss-header-right > .ss-user-avatar { width: 28px; height: 28px; }
+  .ss-main-workspace { padding: 21px 14px 18px; }
+  .ss-page-head { align-items: flex-start; flex-direction: column; gap: 13px; margin-bottom: 18px; }
+  .ss-page-title-box h1 { font-size: 21px; line-height: 1.35; }
+  .ss-page-subtitle { font-size: 10px; }
+  .ss-page-actions { width: 100%; }
+  .ss-page-actions .btn { flex: 1; min-height: 38px; padding: 0 8px; font-size: 9px; }
+  .kpi-grid { gap: 9px; margin-bottom: 17px; }
+  .kpi-card { min-height: 101px; padding: 11px; }
+  .kpi-label { font-size: 8px; }
+  .kpi-icon-box { width: 24px; height: 24px; font-size: 11px; }
+  .kpi-value { font-size: 19px; }
+  .kpi-card-bottom { font-size: 7px; }
+  .zone-cards-grid { grid-template-columns: 1fr; gap: 11px; }
+  .zone-card { padding: 19px 15px 14px; }
+  .form-row { grid-template-columns: 1fr; gap: 0; }
+  .ss-modal-head, .ss-modal-body { padding-right: 15px; padding-left: 15px; }
+  .ss-modal-footer { padding-right: 15px; padding-left: 15px; }
+  .ss-toast { right: 12px; bottom: 12px; }
+}
+
+@media (max-width: 380px) {
+  .ss-page-actions { align-items: stretch; flex-direction: column; }
+  .kpi-grid { grid-template-columns: 1fr 1fr; }
+  .zone-stat-label { font-size: 7px; }
+  .ss-breadcrumb strong { max-width: 125px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+}

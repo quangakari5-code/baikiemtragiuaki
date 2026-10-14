@@ -1,0 +1,65 @@
+# SmartShelf – Khu vực cửa hàng
+
+## Thông tin bài làm
+
+- **Đề tài nhóm:** Điều hành kệ hàng và hỗ trợ mua sắm
+- **Trang thực hiện:** Nhân viên cửa hàng – Giám sát khu vực (Zone View)
+- **Đối tượng sử dụng:** Nhân viên cửa hàng được giao phụ trách các khu vực/kệ hàng.
+- **Mục đích:** Xem nhanh độ phủ hàng, kệ trống, kệ sắp hết hàng và nhiệm vụ bổ sung trong các khu vực được giao.
+
+## Chức năng
+
+- Hiển thị năm khu vực và các số liệu tổng quan từ mảng dữ liệu JavaScript.
+- Tìm khu vực theo tên, ngành hàng hoặc nội dung trên thẻ bằng ô tìm kiếm ở thanh đầu trang.
+- Tạo nhiệm vụ bổ sung nhanh qua biểu mẫu có kiểm tra sản phẩm và số lượng.
+- Tính điểm ưu tiên minh họa theo mức ưu tiên và số lượng tồn.
+- Lưu nhiệm vụ mới trong `localStorage` của trình duyệt để vẫn còn sau khi tải lại trang trên cùng trình duyệt.
+- Hiển thị menu điều hướng dạng thu gọn trên màn hình nhỏ.
+
+## Công nghệ
+
+- HTML5
+- CSS3: Grid, Flexbox, biến CSS, hover và media query
+- JavaScript thuần: mảng/đối tượng, DOM, sự kiện, biểu mẫu và localStorage
+
+## Cấu trúc thư mục
+
+```text
+project/
+├── index.html
+├── css/
+│   ├── style.css
+│   └── responsive.css
+├── js/
+│   ├── data.js
+│   ├── store.js
+│   ├── ai.js
+│   ├── app.js
+│   └── main.js
+└── README.md
+```
+
+## Cách chạy
+
+Mở thư mục dự án trong VS Code, cài tiện ích **Live Server**, sau đó nhấp phải `index.html` và chọn **Open with Live Server**. Các đường dẫn thư mục phải được giữ đúng như sơ đồ trên.
+
+## Giải thích mã nguồn ngắn
+
+- `index.html` là khung trang, các chỉ số tổng quan và biểu mẫu tạo nhiệm vụ.
+- `css/style.css` định nghĩa bảng màu, thanh điều hướng, thẻ khu vực, nút và modal.
+- `css/responsive.css` đổi bố cục cho tablet/mobile và menu thu gọn.
+- `js/data.js` chứa dữ liệu mẫu khu vực, kệ, sản phẩm và nhiệm vụ.
+- `js/store.js` cung cấp thao tác đọc/ghi dữ liệu mẫu vào `localStorage`.
+- `js/ai.js` tính điểm ưu tiên bằng quy tắc JavaScript đơn giản để minh họa. Đây không phải AI thật/API.
+- `js/app.js` tạo thanh điều hướng, hộp thoại, thông báo và xử lý tìm kiếm.
+- `js/main.js` render thẻ khu vực, cập nhật thống kê, kiểm tra biểu mẫu và tạo nhiệm vụ bổ sung.
+
+## Giới hạn bản demo
+
+Dữ liệu là dữ liệu minh họa cho bài giữa kỳ. Không có backend, database hay dịch vụ AI. Nút điều hướng tới `associate-shelf-check.html` và `associate-restock-task.html` là liên kết tới các trang khác trong hệ thống; hãy thêm các tệp đó vào cùng thư mục khi nhóm tích hợp sản phẩm.
+
+## Liên kết nộp bài
+
+- **Figma:** [Thêm liên kết Figma]
+- **Video trình bày:** [Thêm liên kết video sau khi upload]
+- **GitHub cá nhân:** [Thêm liên kết repository]

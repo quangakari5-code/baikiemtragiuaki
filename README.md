@@ -22,6 +22,7 @@
 - CSS3: Grid, Flexbox, biến CSS, hover và media query
 - JavaScript thuần: mảng/đối tượng, DOM, sự kiện, biểu mẫu và localStorage
 ## Cấu trúc thu mục
+```text
 ├── index.html
 ├── css/
 │   ├── style.css
@@ -33,6 +34,7 @@
 │   ├── app.js
 │   └── main.js
 └── README.md
+```
 ## Giải thích mã nguồn ngắn
 
 - `index.html` là khung trang, các chỉ số tổng quan và biểu mẫu tạo nhiệm vụ.

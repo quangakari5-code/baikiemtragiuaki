@@ -21,28 +21,6 @@
 - HTML5
 - CSS3: Grid, Flexbox, biến CSS, hover và media query
 - JavaScript thuần: mảng/đối tượng, DOM, sự kiện, biểu mẫu và localStorage
-
-## Cấu trúc thư mục
-
-```text
-project/
-├── index.html
-├── css/
-│   ├── style.css
-│   └── responsive.css
-├── js/
-│   ├── data.js
-│   ├── store.js
-│   ├── ai.js
-│   ├── app.js
-│   └── main.js
-└── README.md
-```
-
-## Cách chạy
-
-Mở thư mục dự án trong VS Code, cài tiện ích **Live Server**, sau đó nhấp phải `index.html` và chọn **Open with Live Server**. Các đường dẫn thư mục phải được giữ đúng như sơ đồ trên.
-
 ## Giải thích mã nguồn ngắn
 
 - `index.html` là khung trang, các chỉ số tổng quan và biểu mẫu tạo nhiệm vụ.
@@ -53,11 +31,6 @@ Mở thư mục dự án trong VS Code, cài tiện ích **Live Server**, sau đ
 - `js/ai.js` tính điểm ưu tiên bằng quy tắc JavaScript đơn giản để minh họa. Đây không phải AI thật/API.
 - `js/app.js` tạo thanh điều hướng, hộp thoại, thông báo và xử lý tìm kiếm.
 - `js/main.js` render thẻ khu vực, cập nhật thống kê, kiểm tra biểu mẫu và tạo nhiệm vụ bổ sung.
-
-## Giới hạn bản demo
-
-Dữ liệu là dữ liệu minh họa cho bài giữa kỳ. Không có backend, database hay dịch vụ AI. Nút điều hướng tới `associate-shelf-check.html` và `associate-restock-task.html` là liên kết tới các trang khác trong hệ thống; hãy thêm các tệp đó vào cùng thư mục khi nhóm tích hợp sản phẩm.
-
 ## Liên kết nộp bài
 
 - **Figma:** [Thêm liên kết Figma]

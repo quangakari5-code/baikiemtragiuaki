@@ -1,4 +1,4 @@
-// Mo phong goi y uu tien; day khong phai AI that hay API ben ngoai.
+// Mo phong goi y uu tien
 window.SS_AI = {
   scorePriority(priority, product) {
     const baseScores = { critical: 96, high: 84, medium: 68, low: 50 };

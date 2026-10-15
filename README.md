@@ -22,7 +22,6 @@
 - CSS3: Grid, Flexbox, biến CSS, hover và media query
 - JavaScript thuần: mảng/đối tượng, DOM, sự kiện, biểu mẫu và localStorage
 ## Cấu trúc thu mục
-project/
 ├── index.html
 ├── css/
 │   ├── style.css

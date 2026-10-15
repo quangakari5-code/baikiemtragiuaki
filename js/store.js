@@ -1,4 +1,4 @@
-// Lop du lieu nho: doc/ghi du lieu vao localStorage cua trinh duyet.
+// Lop du lieu nho:ghi du lieu vao localStorage cua trinh duyet
 (function () {
   const storageKey = "smartshelf-midterm-v1";
   let memoryData = null;

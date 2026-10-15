@@ -103,7 +103,7 @@ button { cursor: pointer; }
 .zone-stat-val { font-size: 20px; font-weight: 800; line-height: 1.3; }
 .zone-stat-label { color: var(--text-muted); font-size: 8px; font-weight: 700; text-transform: uppercase; }
 
-/* Modal dùng bởi chức năng tạo việc bổ sung nhanh. */
+/* Modal dùng bởi chức năng tạo việc bổ sung nhanh */
 .ss-modal-backdrop { position: fixed; z-index: 100; inset: 0; display: grid; place-items: center; padding: 16px; background: rgba(24,38,53,.55); backdrop-filter: blur(3px); animation: ss-fade-in .15s ease; }
 .ss-modal { width: min(560px, 100%); max-height: min(88vh, 760px); display: flex; flex-direction: column; overflow: hidden; border: 1px solid var(--border-light); border-radius: 15px; background: #fff; box-shadow: 0 25px 80px rgba(14,30,45,.28); animation: ss-pop-in .18s ease; }
 .ss-modal-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; padding: 17px 20px; border-bottom: 1px solid var(--border-light); }

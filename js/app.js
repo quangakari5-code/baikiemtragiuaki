@@ -1,4 +1,4 @@
-// Thanh dieu huong, modal va thong bao dung chung cho trang.
+// Thanh dieu huong, modal va thong bao dung chung cho trang
 (function () {
   const sidebarSlot = document.getElementById("sidebar-slot");
   const headerSlot = document.getElementById("header-slot");

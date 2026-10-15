@@ -1,4 +1,4 @@
-// Du lieu demo cua trang Khu vuc phu trach.
+// Du lieu demo cua trang Khu vuc phu trach
 window.SS_DATA = {
   zones: [
     { id: "A", name: "Khu A – Thực phẩm khô & Ngũ cốc", aisle: "Lối 1–4", description: "Gạo, mì gói, bún miến, đậu hạt và thực phẩm đóng gói khô.", managerName: "Trần Minh Quân", trafficScore: "Cao (88%)", currentAvailability: 92, targetAvailability: 96, color: "#2e9b73" },

@@ -49,4 +49,4 @@
 
 - **Figma:** https://www.figma.com/design/FKUWfGU88LBwCE3M0cXdTF/SmartShelf---Giam-sat-khu-vuc?node-id=0-1&t=KLT2DB5BuemJVeZY-1
 - **Video trình bày:** 
-- **GitHub cá nhân:** https://github.com/quangakari5-code
+- **GitHub cá nhân:** https://github.com/quangakari5-code/baikiemtragiuaki

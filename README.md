@@ -21,6 +21,19 @@
 - HTML5
 - CSS3: Grid, Flexbox, biến CSS, hover và media query
 - JavaScript thuần: mảng/đối tượng, DOM, sự kiện, biểu mẫu và localStorage
+## Cấu trúc thu mục
+project/
+├── index.html
+├── css/
+│   ├── style.css
+│   └── responsive.css
+├── js/
+│   ├── data.js
+│   ├── store.js
+│   ├── ai.js
+│   ├── app.js
+│   └── main.js
+└── README.md
 ## Giải thích mã nguồn ngắn
 
 - `index.html` là khung trang, các chỉ số tổng quan và biểu mẫu tạo nhiệm vụ.
@@ -33,6 +46,6 @@
 - `js/main.js` render thẻ khu vực, cập nhật thống kê, kiểm tra biểu mẫu và tạo nhiệm vụ bổ sung.
 ## Liên kết nộp bài
 
-- **Figma:** [Thêm liên kết Figma]
-- **Video trình bày:** [Thêm liên kết video sau khi upload]
-- **GitHub cá nhân:** [Thêm liên kết repository]
+- **Figma:** https://www.figma.com/design/FKUWfGU88LBwCE3M0cXdTF/SmartShelf---Giam-sat-khu-vuc?node-id=0-1&t=KLT2DB5BuemJVeZY-1
+- **Video trình bày:** 
+- **GitHub cá nhân:** https://github.com/quangakari5-code
